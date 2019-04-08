@@ -1,0 +1,79 @@
+
+25/05/2017
+	* Planned database tables needed, structure of database, using mindmap tool. 
+	* Began creation of access database.
+
+26/05/2017
+	* Planned structure of forms.  
+	* Finished "members" table in database. 
+
+29/05/2017
+	* Finished "pizzas" table in database. 
+	* Planned "orders" form.
+	* Created "orders" table in database. 
+
+30/05/2017
+	* Designed "members" form. 
+
+2/06/2017
+	* Programmed Search Bar for members. 
+	* Programmed Display Window for members.
+	* BUG - when a long list is displayed in the listbox, then turned to a short list,
+		if the user tries to click on a blank space where a name used to be,
+		there is a "null reference" error. 
+         
+7/06/2017
+	* Fixed listbox null reference bug.
+	* Designed "add member" form. 
+
+9/06/2017
+	* Created transitions between "members" and "add member" forms. 
+
+12/06/2017
+	* Created input check for add member form. 
+
+15/06/2017
+	* Created results processing for add member form. 
+
+16/06/2017
+	* Finished add member form.
+	* Improved search system so that two listboxes can scroll at once.
+
+19/06/2017
+	* BUG FOUND - If a member with added with any speech marks (') in the text fields,
+			it will crash the sql statement! 
+	* Added timer to control "edit member" button in form 1.
+	* Designed "edit member" form. 
+
+20/06/2017
+	* Started programming "edit member" form.
+
+22/06/2017
+	* Finished "edit member" form. 
+
+23/06/2017
+	* Begin bugfix of SQL injection bug. 
+	* BUG - USERS CAN TYPE WHATEVER THEY WANT INTO COMBOBOXES.
+
+26/06/2017
+	* Fixed SQL injection bug.
+ 	* Began "orders" form.
+ 	* Created "homescreen" form. 
+
+5/07/2017
+	* Finished "orders" design.
+	* Need to copy across member search form to search member during order. 
+	* Need to make "print order" form with print functionality. 
+	* Need to add price calculating in order form for "remove" buttons. 
+
+6/07/2017
+	* Programmed "orders" form with basic price calculation. 
+	* Need to check for price calculation. 
+	* Need to add membership discounts to price.
+	* Need to add GST to price. 
+	* Need to add member details to order form and create appealing design. 
+	* Need to make a "print order" form.
+	* Fixed combo boxes to disallow written user input. 
+
+7/07/2017
+	* Finished program.
