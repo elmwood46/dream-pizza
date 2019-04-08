@@ -1,0 +1,26 @@
+Dream Pizzas is a local pizzeria that is trying to provide customers with cheap and delicious gourmet pizzas by 
+offering membership discounts. The company is trying a modern attempt at business by offering discounts to members. 
+The owners want to computerise phone orders to help reduce costs and provide better services. 
+Specifically, they want to be able to enter orders into a Windows desktop and print receipts that will accompany the 
+pizzas for both pickups and deliveries. A logo should be found at the top of any forms displayed in the program.
+
+An employee should be able to search, view, and add member details to the order form from a local database. 
+Non-members may also order pizzas. The order form should contain the type of pizza(s) ordered, how many of each pizza, 
+the sub total of each pizza type, as well as the total amount due. The order should also say if it is takeout or delivery. 
+If it is takeaway, no charge is added for non-members, a 5% discount is given for basic members and a 15% discount of total 
+price for premium members. If it is delivery, a $5 charge is added for non-members, no charge is added for basic members and a 
+10% discount of total price for premium members. Finally, the form should also show the name, address, and phone number of the 
+customer. When the order is completed, the program should print a receipt that displays the data from the order form.
+GST is 15%.
+
+You are also required to design and create a database for Dream Pizza. 
+The database will be used to store information about members and Pizzas.
+
+The database will contain the following information:
+Member info:
+	number (a unique five digit number – i.e. 12345, 35149, etc.)
+	title. first name and last name
+	address and phone number
+	membership type and any delivery instructions
+Pizza types
+	The type of pizza along with cost for a small and large piece 
